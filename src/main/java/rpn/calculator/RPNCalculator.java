@@ -14,7 +14,7 @@ public class RPNCalculator {
 		{
 			if(IsOperator(input[i]))
 			{
-				if(input[i].equals("%"))
+				if(input[i].equals("%")||input[i].equals("!"))
 				{
 					int firstValue;
 					Validate(RPNStack, input[i]);

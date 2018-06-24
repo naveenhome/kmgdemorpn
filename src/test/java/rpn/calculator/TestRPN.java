@@ -64,7 +64,7 @@ public class TestRPN {
 	public void testMultiplyWithtwoValue() throws Exception
 	{
 		String expression = "2,3,*";
-		assertEquals(5, rpn.Calculate(expression));
+		assertEquals(6, rpn.Calculate(expression));
 	}
 	@Test public void testTwoValueAndNoOperator()
 	{

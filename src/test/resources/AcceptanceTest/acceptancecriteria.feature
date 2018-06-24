@@ -5,6 +5,7 @@ Feature: RPN Calculator
     Then Result should be <output> in below format
 
     Examples: 
-      | input       | output |
-      | "1,2,3,+,-" | "-4"   |
-      | "1,2,3,+,+" | "6"    |
+      | input               | output |
+      | "1,2,3,+,-"         | "-4"   |
+      | "1,2,3,+,+"         | "6"    |
+      | "5,1,2,+,4,*,+,3,-" | "14"   |
